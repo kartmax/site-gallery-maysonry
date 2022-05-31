@@ -1,0 +1,11 @@
+/.git/
+/**/*.psd
+/**/Thumbs.db
+/**/*.DS_Store
+
+# Arhivs
+/**/*.rar
+/**/*.zip
+
+# PhpStorm
+/.idea/
