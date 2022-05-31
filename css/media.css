@@ -7,18 +7,22 @@
 
 /* lg <= Extra large (xl) */
 @media (max-width : 1200px) {
-
+   :root {
+      --count-column: 8;
+   }
 }
 
 /* md <= Large (lg) */
 @media (max-width : 992px) {
-
+   :root {
+      --count-column: 6;
+   }
 }
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
-   .gallery {
-      width: 70vw;
+   :root {
+      --count-column: 5;
    }
 }
 
@@ -52,14 +56,10 @@
 
 /* Extra large (xl) */
 @media (min-width : 1200px) {
-	.text {
-		font-size: 18px;
-	}
+   
 }
 
 /* Extra extra large (xxl) */
 @media (min-width : 1400px) {
-	.text {
-		font-size: 22px;
-	}
+
 }
